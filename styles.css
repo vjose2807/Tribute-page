@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
+  background-color: #000000;
 }
 
 #main {
@@ -15,7 +15,7 @@ body {
 #title {
   font-size: 32px;
   font-weight: bold;
-  color: #333;
+  color: #e4ef40;
 }
 
 #img-div {
@@ -30,7 +30,7 @@ body {
 #img-caption {
   margin-top: 10px;
   font-size: 14px;
-  color: #666;
+  color: #666666;
 }
 
 #tribute-info {
@@ -41,7 +41,7 @@ body {
 #headline {
   font-size: 20px;
   font-weight: bold;
-  color: #333;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -53,18 +53,33 @@ ul {
 
 li {
   margin-bottom: 8px;
-  color: #666;
+  color: #aaa5a5;
+}
+li:hover {
+  margin-bottom: 8px;
+  color: #ebe409;
+}
+strong {
+  color: #ffffff;
+}
+strong:hover {
+  color: #45dd12;
 }
 
 #tribute-link {
-  display: block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   margin-top: 20px;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-  color: #333;
+  color: #e4ef40;
 }
 
 #tribute-link:hover {
-  color: #007bff;
+  color: #ebe409;
+  background-color: #45dd12;
+  margin: 10px;
+  height: 1.5rem;
 }
